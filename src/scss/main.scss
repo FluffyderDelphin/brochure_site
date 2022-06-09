@@ -6,14 +6,11 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+@use 'abstracts' as abs;
+@use 'base';
+@use 'pages/home';
 
-@use 'base/base';
 
-$color-primary:#2b2b73;
-$color-secondary:#00a2ff;
-$color-dark-gray:#777;
-$color-black:#000;
-$color-white:#fff;
 
 *{
     box-sizing: inherit;
@@ -156,7 +153,7 @@ body{
    
     &:hover{
         transform: translateY(-0.3rem);
-        box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+        box-shadow: 0 1rem 2rem rgba(abs.$color-black, 0.2);
 
         &::after{
             transform: scaleX(1.4) scaleY(1.6);
@@ -166,18 +163,18 @@ body{
    
     &:active{
        transform: translateY(-1px);
-       box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+       box-shadow: 0 0.5rem 1rem rgba(abs.$color-black, 0.2);
    }
    
     &-white{
-        background-color: $color-white;
-        color: $color-dark-gray;
+        background-color: abs.$color-white;
+        color: abs.$color-dark-gray;
         font-weight: 700;
         animation: moveBtnUp 0.5s ease-out .75s;
         animation-fill-mode: backwards;
 
         &::after{
-            background-color: #fff;
+            background-color: abs.$color-white;
         }
     }
    
