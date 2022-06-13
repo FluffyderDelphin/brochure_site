@@ -1,20 +1,42 @@
 .container{
     max-width: 114rem;
     margin: 0 auto;
-    text-align: center;
     // display: flex;
     // flex-direction: column;
     // gap: 10rem;
 }
 
-.mb-15 {
+.text-container{
+    display: flex;
+    gap: 5rem;
+    &-column{
+       flex-direction: column;
+    }
+}
+
+.text-align{
+    &-center{
+        text-align: center;
+    }
+    &-left{
+        text-align: left;
+    }
+}
+
+// Margins
+
+.mb-l {
     margin-bottom: 15rem;
 }
 
-.mb-10 {
+.mb-m {
     margin-bottom: 10rem;
 }
 
-.mb-5 {
-    margin-bottom: 5rem;
+.mb-s {
+    margin-bottom: 4rem;
+}
+
+.mb-xs {
+    margin-bottom: 1.8rem;
 }
