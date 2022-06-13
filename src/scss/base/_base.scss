@@ -1,3 +1,4 @@
+@use '../abstracts/variables' as abs;
 *{
     box-sizing: inherit;
     margin: 0;
@@ -11,4 +12,8 @@ html{
 
 body{
     box-sizing: border-box;
+}
+
+.content-container{
+   background-color: abs.$color-light-gray;
 }
