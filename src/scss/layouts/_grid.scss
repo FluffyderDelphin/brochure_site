@@ -9,7 +9,6 @@
 
 .row {
     display: grid;
-    background-color: #eee;
     margin: 0 auto;
     gap:6rem;
     width: 100%;
@@ -28,8 +27,6 @@
 }
 
 .col{
-    // background-color: orangered;
-    color: #000000;
     padding: 1.5rem;
     text-align: center;
     &-span-2{

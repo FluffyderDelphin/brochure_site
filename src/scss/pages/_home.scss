@@ -1,4 +1,6 @@
 @use '../abstracts/variables' as abs;
 .section-about {
-   padding: 25rem 0;
+   padding: 20rem 0;
+   color: abs.$color-dark-gray;
+
 }

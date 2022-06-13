@@ -15,6 +15,7 @@ body{
     text-transform: uppercase;
     font-weight: 700;
     background-image: linear-gradient(to right,abs.$color-secondary, abs.$color-primary);
+    background-clip: text;
     -webkit-background-clip: text;
     color:transparent;
     letter-spacing: 2px;
@@ -27,7 +28,7 @@ body{
 }
 
 .heading-tertiary{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
     text-transform: uppercase;
 }
