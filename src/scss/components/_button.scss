@@ -52,7 +52,45 @@
         z-index: -1;
         transition: all 0.8s;
     }
-   
+//    Secondary Button Style 
+    &-secondary{
+        &:link,
+        &:visited{
+            font-size: 1.6rem;
+            font-weight: 700;
+            padding: .7rem .4rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: abs.$color-secondary;
+            display: inline-block;
+            border-bottom: 2px solid abs.$color-secondary;
+        
+            
+        }
+       
+        &:hover{
+  
+        }
+       
+        &:active{
+
+       }
+       
+       
+        // &::after{
+        //     content: "";
+        //     display: inline-block;
+        //     height: 100%;
+        //     width: 100%;
+        //     border-radius: 1rem;
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     z-index: -1;
+        //     transition: all 0.8s;
+        // }
+
+    }
   
    
   

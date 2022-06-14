@@ -3,15 +3,24 @@
 body{
     font-family: "Lato",sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: abs.$font-p;
     line-height: 1.7;
     color: abs.$color-dark-gray;
     padding: 3rem;
 }
+.heading-primary{
+    font-size: abs.$font-h1;
+    font-weight: 900;
+    letter-spacing: 3.5rem;
+ 
+    animation-name:moveLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
 
 .heading-secondary{
     display: inline-block;
-    font-size: 3.5rem;
+    font-size: abs.$font-h2;
     text-transform: uppercase;
     font-weight: 700;
     background-image: linear-gradient(to right,abs.$color-secondary, abs.$color-primary);
@@ -28,7 +37,7 @@ body{
 }
 
 .heading-tertiary{
-    font-size: 1.8rem;
+    font-size: abs.$font-h3;
     font-weight: 700;
     text-transform: uppercase;
 }
