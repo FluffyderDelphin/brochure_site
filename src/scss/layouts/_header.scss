@@ -25,11 +25,12 @@
     text-align: center;
     }
 
-    &-primary{
+    &-hero-text{
         color: #fff;
         text-transform: uppercase;
         display: flex;
         flex-direction: column;
+        gap: 3rem;
     
         backface-visibility: hidden;
         margin-bottom:6rem ;
